@@ -10,7 +10,6 @@ class Battle < Sinatra::Base
     @game = Game.instance
   end
 
-
   get '/' do
     erb(:index)
   end
